@@ -87,7 +87,7 @@ An AI-powered VSCode extension that checks code quality and displays colorful sc
 ```typescript
 const extension = vscode.extensions.getExtension('MRoldL001.chobits-ai-code-checker');
 if (extension) {
-  // 确保扩展已激活
+  // 通过以下判断确保扩展已激活
   if (!extension.isActive) {
     await extension.activate();
   }
