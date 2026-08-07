@@ -101,9 +101,9 @@ if (extension) {
 
 | 方法                                     | 描述                  | 返回值                      |
 | -------------------------------------- | ------------------- | ------------------------ |
-| `getCurrentScore()`                    | 获取当前激活文档的代码质量分数     | `number` (0-100，未检查则为-1) |
-| `checkCodeQuality()`                   | 检查当前激活文档的代码质量并更新状态栏 | `Promise<number>`        |
-| `getScoreColor(score)`                 | 根据分数获取 hex 颜色值      | `string`                 |
+| `getCurrentScore()` | 获取当前激活文档的代码质量分数     | `number` (0-100，未检查则为-1) |
+| `checkCodeQuality()`| 检查当前激活文档的代码质量并更新状态栏 |`Promise<number>`|
+|`getScoreColor(score)`| 根据分数获取 hex 颜色值      | `string` |
 | `getScoreLabel(score)`                 | 根据分数获取等级标签          | `string`                 |
 | `checkCodeWithText(code, languageId?)` | 检查传入的任意代码字符串        | `Promise<number>`        |
 
